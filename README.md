@@ -7,5 +7,9 @@ npm install
 npm run dev
 
 Preview
-https://github.com/omerulusal/adminDashboard/assets/96357374/5456d9bd-d6e7-4a29-8709-c5f61c2a40e0
+
+
+
+
+https://github.com/omerulusal/adminDashboard/assets/96357374/6a3afba4-cddf-48aa-a882-08b94cb6e46f
 
