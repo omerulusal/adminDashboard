@@ -1,0 +1,55 @@
+@import "../../styles/responsive.scss";
+
+.topBox {
+    h1 {
+        margin-bottom: 20px;
+
+        @include md {
+            font-size: x-large;
+        }
+    }
+
+    .list {
+        .listItem {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+            .user {
+                display: flex;
+                gap: 20px;
+                text-transform: capitalize;
+
+                .userImg {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+
+
+                }
+
+                .userTexts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .userName {
+                        font-style: 14px;
+                        font-weight: 500;
+                    }
+
+                    .email {
+                        font-style: 12px;
+                    }
+                }
+            }
+
+            .amount {
+                font-weight: 500;
+            }
+        }
+    }
+
+}

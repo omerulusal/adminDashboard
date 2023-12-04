@@ -1,0 +1,50 @@
+@import "../../styles/responsive.scss";
+@mixin col-bet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pieChartBox {
+    height: 100%;
+    @include col-bet;
+
+    h2 {
+        @include md {
+            font-size: x-large;
+        }
+    }
+
+    .chart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .options {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: smaller;
+
+        .option {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            .title {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+
+                .dot {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
