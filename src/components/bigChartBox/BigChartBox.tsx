@@ -10,6 +10,7 @@ const veri = [
     { name: "Fri", books: 1200, clothes: 2200, electronic: 1500, },
     { name: "Sat", books: 3370, clothes: 1350, electronic: 4600, },
 ]
+// normalde verileri data.ts te tanımlayıp Home.tsxten yollardım bu sefer direkt burada oluşturdum.
 const BigChartBox = () => {
     return (
         <div className="bigChart">

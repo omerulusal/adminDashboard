@@ -22,5 +22,6 @@ const Home = () => {
         </div>
     )
 }
+// chartlara data.ts te oluşturdugum verileri yolladım.
 
 export default Home

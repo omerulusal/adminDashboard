@@ -4,7 +4,6 @@ import "./users.scss"
 import { userRows } from "../../data";
 import { useState } from "react";
 import Add from "../../components/add/Add";
-
 // BU KODLARIN TAMAMI https://mui.com/x/react-data-grid/ ten alındı (6-55)
 const columns: GridColDef[] = [
     { field: 'id', headerName: 'ID', width: 90 },
