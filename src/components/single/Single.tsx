@@ -22,7 +22,7 @@ const Single = (props: Props) => {
             <div className="view">
                 <div className="info">
                     <div className="topInfo">
-                        {props.img && <img src={props.img} alt="user" />}
+                        {props.img && <img src={props.img} alt="image" />}
                         <h3>{props.title}:</h3>
                         <button onClick={() => setShowModal(true)}>Update</button>
                     </div>

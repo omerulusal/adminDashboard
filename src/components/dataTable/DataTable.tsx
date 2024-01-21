@@ -23,7 +23,7 @@ const DataTable = (props: Props) => {
                         <img src="/view.svg" alt="view" />
                     </Link>
                     <div className="delete">
-                        <img src="/delete.svg" alt="delte" />
+                        <img src="/delete.svg" alt="delete" />
                     </div>
                 </div>
             )
@@ -33,7 +33,7 @@ const DataTable = (props: Props) => {
 
     return (
         <div className='dataTable'>
-{/* // BU KOD BLOGU https://mui.com/x/react-data-grid/ ten alındı (42-68) */}
+            {/* // BU KOD BLOGU https://mui.com/x/react-data-grid/ ten alındı (37-68) */}
             <Box sx={{ height: 720, width: '100%' }}>
                 <DataGrid
                     className="dataGrid"
